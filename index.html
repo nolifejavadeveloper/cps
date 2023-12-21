@@ -1,0 +1,47 @@
+<html>
+    <head>
+    <title>CPS Test</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="title">
+        <div class="text">
+            <h1>CPS Test!</h1>
+            <p>How fast can you click? <br>Human average CPS is 5-7 clicks per second. </p>
+        </div>
+    </div>
+
+    <div class="select-time">
+        <h3>Select Time</h3>
+        <div class="time-button">
+            <button id="1s">1 Second</button>
+            <button id="2s">2 Seconds</button>
+            <button id="5s">5 Seconds</button>
+            <button id="10s" class="active">10 Seconds</button>
+            <button id="30s">30 Seconds</button>
+            <button id="60s">1 Minute</button>
+            <button id="600s">10 Minutes</button>
+        </div>
+    </div>
+
+    <div class="stats">
+        <div class="time">
+          <small>Time: </small>
+          <small id="time"></small>
+        </div>
+        <div class="cps">
+          <small>CPS: </small>
+          <small id="cps"></small>
+        </div>
+        <div class="clicks">
+          <small>Clicks: </small>
+          <small id="clicks"></small>
+        </div>
+    </div>
+
+    <div id="click-area">
+        <h1>Click here</h1>
+    </div>
+      <script src="./script.js"></script>
+</body>
+</html>
