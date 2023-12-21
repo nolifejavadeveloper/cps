@@ -50,7 +50,7 @@ function endGame() {
 
         
         if (cps > 20) {
-            resultText += "You are a god a clicking.";
+            resultText += "You are a god at clicking.";
 
         }else if (cps > 15) {
             resultText += "You're crazy.";
